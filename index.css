@@ -70,6 +70,7 @@ input {
 
 .mortgage-amount input, .mortgage-term input, .interest-rate input {
   border: none;
+  font-size: 20px;
 }
 
 .mortgage-amount input, .mortgage-term input, .interest-rate input {
