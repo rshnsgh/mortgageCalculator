@@ -114,7 +114,7 @@ function showResults() {
         Your monthly repayments
       </p>
       <h1 class="repayment-amount">
-        $${monthlyPayment.toFixed(2)}
+        £${monthlyPayment.toFixed(2)}
       </h1>
     </div>
     <div class="bottom-card">
@@ -122,7 +122,7 @@ function showResults() {
         Total you'll repay over the term
       </p>
       <h2 class="total-repay-amount">
-        $${totalRepayAmount.toFixed(2)}
+        £${totalRepayAmount.toFixed(2)}
       </h2>
     </div>
   </div>
