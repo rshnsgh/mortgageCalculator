@@ -15,7 +15,7 @@ function clearAll() {
           <label>Mortgage Amount</label>
           <div class="mortgage-amount">
             <label class="text-amount">£</label>
-            <input type="number" class="input-amount inputss" required>
+            <input type="number" class="input-amount inputss" id="amount" required>
            
           </div>
           
@@ -24,7 +24,7 @@ function clearAll() {
           <div class="form-left">
             <label>Mortgage Term</label>
             <div class="mortgage-term">
-              <input type="number"  required>
+              <input type="number" id="term" required>
              <label class="text-term inputss">years</label>
             </div>
             
@@ -32,7 +32,7 @@ function clearAll() {
           <div class="form-right">
             <label>Interest Rate</label>
             <div class="interest-rate">
-              <input type="number"  required>
+              <input type="number" id="rate" required>
              <label class="text-rate inputss">%</label>
             </div>
             
@@ -78,7 +78,6 @@ function clearAll() {
   </div>
    `;
 }
-
 
 
 function calculate() {
